@@ -9,6 +9,7 @@ btnAvancar.addEventListener("click", function () {
 
 
     cartaoAtual++;
+    mostrarSelecionado();
 });
 
 btnVoltar.addEventListener("click", function () {
@@ -16,6 +17,7 @@ btnVoltar.addEventListener("click", function () {
     esconderSelecionado();
 
     cartaoAtual--;
+    mostrarSelecionado();   
 
 });
 
